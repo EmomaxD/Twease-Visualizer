@@ -1,3 +1,6 @@
 [submodule "QbitLite"]
 	path = QbitLite
 	url = https://github.com/EmomaxD/QbitLite.git
+[submodule "Twease"]
+	path = Twease
+	url = https://github.com/EmomaxD/Twease.git

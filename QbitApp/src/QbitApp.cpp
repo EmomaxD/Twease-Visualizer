@@ -1,25 +1,25 @@
 #include <Qbit.h>
 #include "Qbit/Core/EntryPoint.h"
-#include "QbitAppLayer.h"
+#include "TweaseApp.h"
 
-class Sandbox : public Qbit::Application
+class QbitApp : public Qbit::Application
 {
 public:
-    Sandbox(const Qbit::ApplicationSpecification& specification)
+    QbitApp(const Qbit::ApplicationSpecification& specification)
         : Qbit::Application(specification)
     {
-        PushLayer(new QbitAppLayer());
+        PushLayer(new TweaseApp());
     }
 
-    ~Sandbox() = default;
+    ~QbitApp() = default;
 };
 
 Qbit::Application* Qbit::CreateApplication(Qbit::ApplicationCommandLineArgs args)
 {
     Qbit::ApplicationSpecification spec;
-    spec.Name = "QbitApp";
+    spec.Name = "TweaseApp";
     spec.WorkingDirectory = "../QbitApp";
     spec.CommandLineArgs = args;
 
-    return new Sandbox(spec);
+    return new QbitApp(spec);
 }

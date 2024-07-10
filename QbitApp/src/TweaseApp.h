@@ -2,11 +2,11 @@
 
 #include "Qbit.h"
 
-class QbitAppLayer : public Qbit::Layer
+class TweaseApp : public Qbit::Layer
 {
 public:
-	QbitAppLayer();
-	virtual ~QbitAppLayer() = default;
+	TweaseApp();
+	virtual ~TweaseApp() = default;
 
 	virtual void OnAttach() override;
 	virtual void OnDetach() override;

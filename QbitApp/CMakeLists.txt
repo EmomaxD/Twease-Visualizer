@@ -26,6 +26,7 @@ target_include_directories(QbitApp PRIVATE
     ${GLM_DIR}
     ${GLM_DIR}/glm
     ${SPDLOG_DIR}/include
+    ${CMAKE_SOURCE_DIR}/Twease/include
 
 )
 
