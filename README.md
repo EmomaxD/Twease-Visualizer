@@ -3,7 +3,7 @@
 ## Overview
 Twease-Visualizer is an application designed to showcase the control and manipulation of animation parameters, focusing on easing functions and animation duration management. This tool provides a user-friendly interface for adding, removing, and adjusting animation objects in real-time.
 
-Built upon the Qbit-App-Template, a game engine template developed by [Qbit](https://github.com/EmomaxD/Qbit).
+Built upon the [QbitAppTemplate](https://github.com/EmomaxD/QbitAppTemplate), a game engine template developed by [QbitLite](https://github.com/EmomaxD/QbitLite) which is the Lite version of [Qbit](https://github.com/EmomaxD/Qbit).
 
 Twease-Visualizer leverages the power of the [Twease](https://github.com/EmomaxD/Twease) library for handling various easing functions seamlessly.
 
