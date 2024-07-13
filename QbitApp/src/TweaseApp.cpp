@@ -146,37 +146,37 @@ void TweaseApp::OnImGuiRender()
 
     // Assign the selected easing function
     switch (currentEaseFunction) {
-    case 0:  selectedEaseFunction = Ease::linear; break;
-    case 1:  selectedEaseFunction = Ease::quadIn; break;
-    case 2:  selectedEaseFunction = Ease::quadOut; break;
-    case 3:  selectedEaseFunction = Ease::quadInOut; break;
-    case 4:  selectedEaseFunction = Ease::cubicIn; break;
-    case 5:  selectedEaseFunction = Ease::cubicOut; break;
-    case 6:  selectedEaseFunction = Ease::cubicInOut; break;
-    case 7:  selectedEaseFunction = Ease::quartIn; break;
-    case 8:  selectedEaseFunction = Ease::quartOut; break;
-    case 9:  selectedEaseFunction = Ease::quartInOut; break;
-    case 10: selectedEaseFunction = Ease::quintIn; break;
-    case 11: selectedEaseFunction = Ease::quintOut; break;
-    case 12: selectedEaseFunction = Ease::quintInOut; break;
-    case 13: selectedEaseFunction = Ease::sineIn; break;
-    case 14: selectedEaseFunction = Ease::sineOut; break;
-    case 15: selectedEaseFunction = Ease::sineInOut; break;
-    case 16: selectedEaseFunction = Ease::expoIn; break;
-    case 17: selectedEaseFunction = Ease::expoOut; break;
-    case 18: selectedEaseFunction = Ease::expoInOut; break;
-    case 19: selectedEaseFunction = Ease::circIn; break;
-    case 20: selectedEaseFunction = Ease::circOut; break;
-    case 21: selectedEaseFunction = Ease::circInOut; break;
-    case 22: selectedEaseFunction = Ease::backIn; break;
-    case 23: selectedEaseFunction = Ease::backOut; break;
-    case 24: selectedEaseFunction = Ease::backInOut; break;
-    case 25: selectedEaseFunction = Ease::elasticIn; break;
-    case 26: selectedEaseFunction = Ease::elasticOut; break;
-    case 27: selectedEaseFunction = Ease::elasticInOut; break;
-    case 28: selectedEaseFunction = Ease::bounceIn; break;
-    case 29: selectedEaseFunction = Ease::bounceOut; break;
-    case 30: selectedEaseFunction = Ease::bounceInOut; break;
+    case 0:  selectedEaseFunction = Twease::linear; break;
+    case 1:  selectedEaseFunction = Twease::quadIn; break;
+    case 2:  selectedEaseFunction = Twease::quadOut; break;
+    case 3:  selectedEaseFunction = Twease::quadInOut; break;
+    case 4:  selectedEaseFunction = Twease::cubicIn; break;
+    case 5:  selectedEaseFunction = Twease::cubicOut; break;
+    case 6:  selectedEaseFunction = Twease::cubicInOut; break;
+    case 7:  selectedEaseFunction = Twease::quartIn; break;
+    case 8:  selectedEaseFunction = Twease::quartOut; break;
+    case 9:  selectedEaseFunction = Twease::quartInOut; break;
+    case 10: selectedEaseFunction = Twease::quintIn; break;
+    case 11: selectedEaseFunction = Twease::quintOut; break;
+    case 12: selectedEaseFunction = Twease::quintInOut; break;
+    case 13: selectedEaseFunction = Twease::sineIn; break;
+    case 14: selectedEaseFunction = Twease::sineOut; break;
+    case 15: selectedEaseFunction = Twease::sineInOut; break;
+    case 16: selectedEaseFunction = Twease::expoIn; break;
+    case 17: selectedEaseFunction = Twease::expoOut; break;
+    case 18: selectedEaseFunction = Twease::expoInOut; break;
+    case 19: selectedEaseFunction = Twease::circIn; break;
+    case 20: selectedEaseFunction = Twease::circOut; break;
+    case 21: selectedEaseFunction = Twease::circInOut; break;
+    case 22: selectedEaseFunction = Twease::backIn; break;
+    case 23: selectedEaseFunction = Twease::backOut; break;
+    case 24: selectedEaseFunction = Twease::backInOut; break;
+    case 25: selectedEaseFunction = Twease::elasticIn; break;
+    case 26: selectedEaseFunction = Twease::elasticOut; break;
+    case 27: selectedEaseFunction = Twease::elasticInOut; break;
+    case 28: selectedEaseFunction = Twease::bounceIn; break;
+    case 29: selectedEaseFunction = Twease::bounceOut; break;
+    case 30: selectedEaseFunction = Twease::bounceInOut; break;
     }
 
     if (ImGui::Button("Add Circle")) {

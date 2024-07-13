@@ -19,4 +19,4 @@ To get started with Twease-Visualizer, follow these steps:
 2. Open up the Qbit-App solution and Run!
 3. Use the GUI to interact with animation parameters and observe real-time results.
 
-![Alt Text](Twease.png)
+![Alt Text](Twease.gif)
